@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		237626B5152B8C1800DC7793 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 237626B4152B8C1800DC7793 /* main.cpp */; };
+		237626B5152B8C1800DC7793 /* server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 237626B4152B8C1800DC7793 /* server.cpp */; };
+		237626BE152B901300DC7793 /* RSAencrypt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 237626BD152B901300DC7793 /* RSAencrypt.cpp */; };
+		237626C0152B906600DC7793 /* client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 237626BF152B906600DC7793 /* client.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,10 @@
 
 /* Begin PBXFileReference section */
 		237626B0152B8C1800DC7793 /* miniRSA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = miniRSA; sourceTree = BUILT_PRODUCTS_DIR; };
-		237626B4152B8C1800DC7793 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		237626B4152B8C1800DC7793 /* server.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = server.cpp; sourceTree = "<group>"; };
+		237626BD152B901300DC7793 /* RSAencrypt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RSAencrypt.cpp; sourceTree = "<group>"; };
+		237626BF152B906600DC7793 /* client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = client.cpp; sourceTree = "<group>"; };
+		237626C1152B907800DC7793 /* RSAencrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAencrypt.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +62,10 @@
 		237626B3152B8C1800DC7793 /* miniRSA */ = {
 			isa = PBXGroup;
 			children = (
-				237626B4152B8C1800DC7793 /* main.cpp */,
+				237626B4152B8C1800DC7793 /* server.cpp */,
+				237626BF152B906600DC7793 /* client.cpp */,
+				237626BD152B901300DC7793 /* RSAencrypt.cpp */,
+				237626C1152B907800DC7793 /* RSAencrypt.h */,
 			);
 			path = miniRSA;
 			sourceTree = "<group>";
@@ -112,7 +120,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				237626B5152B8C1800DC7793 /* main.cpp in Sources */,
+				237626B5152B8C1800DC7793 /* server.cpp in Sources */,
+				237626BE152B901300DC7793 /* RSAencrypt.cpp in Sources */,
+				237626C0152B906600DC7793 /* client.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
